@@ -1,0 +1,21 @@
+
+.card{
+    background-color: rgb(207, 117, 144);
+}
+
+.contenedor{
+    background-image: url(/assets/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.textH2{
+    height: 80px;
+    border-bottom: 2px solid rgb(207, 117, 144);
+    border-top: 2px solid rgb(207, 117, 144);
+    background-color: rgb(26, 26, 26);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

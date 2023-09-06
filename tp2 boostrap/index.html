@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Vans</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="width: 100%;">
+        <div class="container-fluid" style="width: 100%;">
+            <a class="navbar-brand" href="#"><img src="/assets/Logo-Vans.png" style="width: 180px" alt="" /></a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-light navbar-toggler-icon" style="background-color: rgb(255, 255, 255)"></span>
+            </button>
+            <!--items nav-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: black" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color: black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos </a>
+                    <ul class="dropdown-menu" style="background-color: white" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" style="color: black" href="">Zapatillas</a></li>
+                      <li><a class="dropdown-item" style="color: black" href="#">Ropa</a></li>
+                      <li><hr class="dropdown-divider" style="background-color: rgb(207, 117, 144)" /></li>
+                      <li><a class="dropdown-item" style="color: black" href="#">Sale</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: black" href="">Contacto</a>
+                  </li>
+                </ul>
+                <!--buscador-->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+                    <button class="btn btn-dark" id="botonBuscar" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="contenedor">
+        <div class="textH2">
+            <h1>Productos</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 40px 50px; margin: auto;">
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/vans.jpg" class="card-img-top" alt="..." style="object-fit: contain; width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">Old school</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id a error autem similique nobis.</p>
+                  <button type="button" class="btn btn-light">Comprar</button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-white">Disponible</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/assets/sk8.jpg" class="card-img-top" alt="..." style="object-fit: contain; width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">Sk8 high</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id a error autem similique nobis.</p>
+                  <button type="button" class="btn btn-light">Comprar</button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-white">Agotado</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" style="width: 100%;">
+                <img src="/assets/crockett.jpg" class="card-img-top" alt="..." style="object-fit: contain; width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">U SK8-Low</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id a error autem similique nobis.</p>
+                  <button type="button" class="btn btn-light">Comprar</button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-white">Disponible</small>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0 bg-dark">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/vans/" role="button"><i class="fab fa-instagram"></i></a>
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgb(19, 18, 18)">
+            © 2023 Copyright:
+            <a class="text-white" href="#">Vans</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+<script src="https://kit.fontawesome.com/0ba8b1aab8.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
